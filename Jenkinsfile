@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git url: 'https://github.com/neda-vazharova/CICD-project1.git'
+                git url: 'https://github.com/vajarova/CICD-project1'
             }
         }
         stage('compile') {
